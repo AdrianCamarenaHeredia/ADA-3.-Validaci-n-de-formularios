@@ -1,0 +1,26 @@
+/* Estilos generales */
+body {
+    background-color: #f4f7f6;
+}
+
+/* Estilos para la calculadora */
+.calculadora-container {
+    max-width: 300px;
+}
+
+.calculadora-container .d-grid {
+    display: grid;
+    gap: 5px;
+}
+
+.calculadora-container button {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 15px 0;
+}
+
+/* Ajustes al menú de navegación por scroll */
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 70px; /* Para que el menú fijo no tape las secciones */
+}
